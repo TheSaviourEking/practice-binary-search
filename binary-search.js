@@ -33,11 +33,11 @@ function binarySearch(arr, target) {
   // Return -1 if the loop exits with overlapping pointers
   return -1;
 }
-arr = [];
+// arr = [];
 
-    for (let i = 0 ; i < 1000000 ; i++) {
-      arr.push(i);
-    }
-console.log(linearSearch(arr, 100))
+//     for (let i = 0 ; i < 1000000 ; i++) {
+//       arr.push(i);
+//     }
+// console.log(linearSearch(arr, 100))
 
 module.exports = [linearSearch, binarySearch]
